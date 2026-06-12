@@ -1,0 +1,3 @@
+- Ferienwohnungen (ferienwohnungen): bezeichnung[string/text], beschreibung[string/textarea], max_personen[number], lage[string/text], hinweise[string/textarea]
+- Buchungen (buchungen): ferienwohnung[applookup/select], anreise[date/date], abreise[date/date], gast_vorname[string/text], gast_nachname[string/text], gast_email[string/email], gast_telefon[string/tel], anzahl_personen[number], bemerkungen[string/textarea]
+  → ferienwohnung links to app_id 6a293d78523cacb6cdbf4f0d

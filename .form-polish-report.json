@@ -1,0 +1,16 @@
+{
+  "entities": {
+    "Ferienwohnungen": {
+      "placeholders_set": 5,
+      "defaults_keys": ["max_personen"],
+      "computed_keys": [],
+      "reason": "Reine Stammdatenentität ohne Preisfelder, Datumspaare oder Applookup-Beziehungen — nichts berechenbar"
+    },
+    "Buchungen": {
+      "placeholders_set": 9,
+      "defaults_keys": ["anreise", "abreise", "anzahl_personen"],
+      "computed_keys": ["_buchung_dauer_nächte"],
+      "reason": "Aufenthalts-Entity mit Datumspaar; virtuelle Dauer-Berechnung für Aggregat-Anzeige. Kein Gesamtpreis-Feld und keine Preis-Spalte im Applookup-Target (nur max_personen) — keine Total-Formel sinnvoll"
+    }
+  }
+}

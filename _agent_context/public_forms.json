@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "ferienwohnungen",
+      "app_id": "6a293d78523cacb6cdbf4f0d",
+      "path": "/rest/apps/6a293d78523cacb6cdbf4f0d/records",
+      "allowed_fields": [
+        "bezeichnung",
+        "beschreibung",
+        "max_personen",
+        "lage",
+        "hinweise"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Ferienwohnungen — Formular"
+    },
+    {
+      "entity": "buchungen",
+      "app_id": "6a293d7b075920351b0a17fc",
+      "path": "/rest/apps/6a293d7b075920351b0a17fc/records",
+      "allowed_fields": [
+        "anreise",
+        "abreise",
+        "gast_vorname",
+        "gast_nachname",
+        "gast_email",
+        "gast_telefon",
+        "anzahl_personen",
+        "bemerkungen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Buchungen — Formular"
+    }
+  ]
+}

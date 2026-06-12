@@ -1,0 +1,20 @@
+{
+  "FerienwohnungenDialog.tsx": {
+    "bezeichnung": "z. B. Villa Seeblick",
+    "beschreibung": "Größe, Ausstattung, besondere Features...",
+    "max_personen": "z. B. 6",
+    "lage": "Straße, Stadt, Postleitzahl",
+    "hinweise": "Parkplatz, Haustiere, Stornobedingungen..."
+  },
+  "BuchungenDialog.tsx": {
+    "ferienwohnung": "Welche Wohnung buchen?",
+    "anreise": "Wann kommt der Gast an?",
+    "abreise": "Wann reist der Gast ab?",
+    "gast_vorname": "z. B. Hans",
+    "gast_nachname": "z. B. Müller",
+    "gast_email": "z. B. hans@example.com",
+    "gast_telefon": "z. B. +49 123 456789",
+    "anzahl_personen": "z. B. 4",
+    "bemerkungen": "Spezielle Wünsche, Allergien, Anreisezeit..."
+  }
+}
